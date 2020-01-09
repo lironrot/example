@@ -1,5 +1,3 @@
-#!/bin/bash 
-
 #! /bin/bash
 
 NICLIST=$(cat /proc/net/dev | grep -e ":" | grep -v -e "lo"| cut -d ":" -f1)
